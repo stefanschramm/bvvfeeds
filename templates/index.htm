@@ -1,0 +1,78 @@
+## -*- coding: utf-8 -*-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>BVV Feeds</title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta name="description" content="RSS-Feeds der Berliner Bezirksverordnetenversammlungen" />
+	<meta name="keywords" content="berlin, bvv, rss, feeds, bezirksverordnetenversammlung, sitzungen, protokolle, ausschüsse" />
+	<link rel="stylesheet" href="static/screen.css" type="text/css" />
+	<link rel="shortcut icon" type="image/x-icon" href="static/favicon.ico" />
+</head>
+<body>
+	<div id="container">
+		<div id="head">
+			<a href="${b.homepage}"><img src="static/logo.png" alt="BVV Feeds Logo" /></a>
+			<h1><a href="${b.homepage}">BVV Feeds</a><sup><small style="color: #999;">(beta)</small></sup></h1>
+		</div>
+		<div id="content">
+			<p>
+				BVV Feeds generiert aus dem Internetangebot der <a href="http://www.berlin.de/rubrik/politik-und-verwaltung/bezirksaemter/">Berliner Bezirksämter</a> <a href="http://de.wikipedia.org/wiki/RSS">RSS-Feeds</a> mit den Tagesordnungen der Sitzungen der Bezirksverordnetenversammlungen (BVVen) und ihrer (aktiven) Ausschüsse. Die Feeds beinhalten in etwa die Sitzungen, die im Zeitraum von einem Jahr bis heute stattfanden und werden einmal täglich aktualisiert.
+			</p>
+			<div style="text-align: center;">
+				<map id="bezirke-map">
+					<area shape="poly" coords="77,98,83,109,57,116,42,156,102,158,108,130,94,112,102,104,97,99,82,98" href="#charlottenburg-wilmersdorf" alt="1"/>
+					<area shape="poly" coords="147,110,149,124,127,126,125,142,147,132,154,136,160,131,168,134,170,116,162,114,154,110" href="#friedrichshain-kreuzberg" alt="2"/>
+					<area shape="poly" coords="177,59,169,72,177,91,164,108,175,117,172,134,195,148,205,144,195,120,189,117,185,99,192,97,189,86,204,71,184,62" href="#lichtenberg" alt="3"/>
+					<area shape="poly" coords="210,73,194,88,196,99,190,102,196,117,207,144,218,137,231,146,237,129,247,104,233,102,216,92,213,75" href="#marzahn-hellersdorf" alt="4"/>
+					<area shape="poly" coords="92,97,105,103,100,111,107,119,109,128,121,133,125,125,144,113,135,108,129,85,108,86,94,92" href="#mitte" alt="5"/>
+					<area shape="poly" coords="141,143,149,160,142,193,150,195,168,186,178,201,192,198,189,183,162,161,169,156,157,140" href="#neukoelln" alt="6"/>
+					<area shape="poly" coords="119,39,123,52,115,68,133,82,140,106,159,108,163,94,175,89,165,72,178,58,175,52,181,20,161,5,154,24,141,27,127,25" href="#pankow" alt="7"/>
+					<area shape="poly" coords="91,17,76,18,68,39,43,56,51,78,70,99,87,97,108,83,125,82,111,65,117,42,91,41,87,23" href="#reinickendorf" alt="8"/>
+					<area shape="poly" coords="44,72,26,65,15,77,21,99,13,122,31,132,12,174,14,183,40,165,44,141,56,113,80,111,78,104,58,96,48,80" href="#spandau" alt="9"/>
+					<area shape="poly" coords="47,161,13,188,4,197,22,217,35,211,34,206,72,190,76,203,95,193,100,204,116,194,127,185,111,159" href="#steglitz-zehlendorf" alt="10"/>
+					<area shape="poly" coords="112,134,111,156,121,164,130,186,119,201,133,215,150,220,153,212,150,202,136,193,145,161,138,143" href="#tempelhof-schoeneberg" alt="11"/>
+					<area shape="poly" coords="160,137,174,153,171,161,195,183,231,207,252,220,251,241,264,220,278,211,268,207,291,189,293,162,272,146,244,143,219,142,200,151,171,137,163,134" href="#treptow-koepenick" alt="12"/>
+				</map>
+				<img src="static/bezirke.png" alt="Berliner Bezirke" usemap="#bezirke-map" /><br />
+				<div style="text-align: right;"><small>Karte: <a href="http://commons.wikimedia.org/wiki/File:Berlin_location_map_simplified.svg">cc-by-sa</a></small></div>
+			</div>
+			<ul style="clear: both;">
+			% for bezirk,bezirkfeeds in sorted(b.feeds.items()):
+				<li id="${bezirk}">
+					<strong><a class="bezirk" href="#${bezirk}">${b.bezirke[bezirk]}</a></strong>
+					<ul>
+						<li><a href="${b.feeds_dir}/${bezirk}/bvv.xml"><strong>${bezirkfeeds['bvv'][1]}</strong></a></li>
+					% for gremium,g in sorted(bezirkfeeds.items(), key=lambda g: g[1][1].lower().replace(u'ä', u'a').replace(u'ö', u'o').replace(u'ü', u'u')):
+						% if gremium != u'bvv':
+						<li>
+							<a href="${b.feeds_dir}/${bezirk}/${gremium}.xml">${g[1]}</a>
+						</li>
+						% endif
+					% endfor
+					</ul>
+				</li>
+			% endfor
+			</ul>
+			<p>
+				Disclaimer: Es wird keine Gewähr für die Vollständigkeit oder Richtigkeit der in den Feeds enthaltenen Einträge übernommen. Der Betreiber von BVV Feeds empfiehlt Zwecks einer <a href="http://berlin.piratenpartei.de/2011/08/05/grundsatzprogramm-transparenz/">transparenteren Politik</a> der Berliner Verwaltung ihr Internetangebot dahingehend zu erweitern, dass direkt RSS-Feeds der Sitzungen der BVVen angeboten werden.
+			</p>
+		</div>
+		<div id="footer">Kontakt: mail@<a href="http://stefanschramm.net/kontakt">stefanschramm.net</a></div>
+	</div>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.kesto.de/" : "http://piwik.kesto.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 8);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://piwik.kesto.de/piwik.php?idsite=8" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+</body>
+</html>
+

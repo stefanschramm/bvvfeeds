@@ -1,0 +1,58 @@
+body {
+	font-family: sans-serif;
+	background-color: #ee6633;
+	font-size: 0.9em;
+}
+
+#container a:link, #container a:active, #container a:hover, #container a:visited {
+	color: #cc4411;
+}
+
+a.url {
+	font-family: monospace;
+}
+
+#container {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 700px;
+	background-color: #fff;
+}
+
+#head {
+	padding: 20px 20px 0 20px;
+}
+
+#head img {
+	float: right;
+	margin-bottom: 20px;
+}
+
+#head a:link, #head a:active, #head a:hover, #head a:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+
+#content {
+	clear: both;
+	padding: 0 20px 0 20px;
+}
+
+#container a.bezirk:link, #container a.bezirk:active, #container a.bezirk:hover, #container a.bezirk:visited {
+	color: #000;
+	text-decoration: none;
+}
+
+#footer {
+	font-size: small;
+	background-color: #ee6633;
+	color: #fff;
+	text-align: center;
+}
+
+#footer a:link, #footer a:active, #footer a:hover, #footer a:visited {
+	color: #fff;
+	text-decoration: none;
+}

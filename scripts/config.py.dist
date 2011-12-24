@@ -1,0 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+application_root = '/home/user0/bvvfeeds'
+document_root = '/home/user0/bvvfeeds/public'
+homepage = 'http://bvvfeeds.kesto.de/'
+

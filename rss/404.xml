@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Feed nicht auffindbar</title>
+		<link>http://bvvfeeds.kesto.de/</link>
+		<description>Feed nicht auffindbar.</description>
+		<lastBuildDate>Wed, 07 Dec 2011 02:03:09 GMT</lastBuildDate>
+		<generator>per Hand</generator>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<item>
+			<title>Feed nicht auffindbar</title>
+			<link>http://bvvfeeds.kesto.de/</link>
+			<description>
+				Der gewünschte RSS-Feed ist nicht auffindbar (Fehler 404). Möglicherweise haben sich die Bezeichnungen der Ausschüsse verändert. Auf <a href="http://bvvfeeds.kesto.de/">http://bvvfeeds.kesto.de/</a> ist die aktuelle Liste der Ausschüsse zu finden.
+			</description>
+			<guid isPermaLink="false">754bd5c92b4b31d4127dbebfe8404404</guid>
+			<pubDate>Thu, 16 Dec 2010 00:00:00 GMT</pubDate>
+		</item>
+	</channel>
+</rss>

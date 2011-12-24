@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} !^bvvfeeds.kesto.de$ [NC]
+RewriteRule ^(.*)$ http://bvvfeeds.kesto.de/$1 [L,R=301] 
