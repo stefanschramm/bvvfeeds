@@ -44,7 +44,8 @@ pretty_replacements_map = {
 	'ag_kinder_jugendhilfeplanung_des_kinder_jugendhilfees': 'ag_kinder_jugendhilfeplanung_des_kjha',
 	'vorstand_steglitzzehlendorf': 'vorstand',
 	'buergerdienste_ordnungs_allg._verwaltungsangelegnheiten': 'buergerdienste_ordnung_verwaltungsangelegnheiten',
-	'zeitweiliger_geschaeftsordnung': 'zeitweilige_geschaeftsordnung'
+	'zeitweiliger_geschaeftsordnung': 'zeitweilige_geschaeftsordnung',
+	'temporaerer_transparente_moderne_oeffentlichkeitsarbeit': 'transparente_moderne_oeffentlichkeitsarbeit'
 }
 
 
