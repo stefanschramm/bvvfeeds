@@ -92,7 +92,7 @@ extractors = {
 	},
 	'gremien': {
 		'url': 'http://www.berlin.de/ba-%s/bvv-online/si018.asp',
-		'list_expression': '//form[@id=\'SELHEAD\']/table/tr[2]/td[2]/select/option',
+		'list_expression': '//select[@name=\'GRA\']/option',
 		'property_map': {
 			'name': [['./text()', '^(.*)$', lambda n: n.strip()]],
 			'id': [['./@value', '^(.*)$']]

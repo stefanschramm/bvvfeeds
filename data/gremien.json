@@ -591,8 +591,8 @@
             "Ausschuss für Umwelt und Natur"
         ], 
         "rechnungspruefung_eingaben_beschwerden": [
-            "56", 
-            "Ausschuss für Rechnungsprüfung und Eingaben und Beschwerden"
+            "72", 
+            "Ausschuss für Rechnungsprüfung, Eingaben und  Beschwerden"
         ], 
         "kultur_weiterbildung": [
             "69", 
@@ -874,6 +874,10 @@
             "40", 
             "Ausschuss für Bauwesen und Stadtplanung"
         ], 
+        "transparente_moderne_oeffentlichkeitsarbeit": [
+            "55", 
+            "Temporärer Ausschuss für transparente und moderne Öffentlichkeitsarbeit"
+        ], 
         "sport": [
             "50", 
             "Sportausschuss"
@@ -885,10 +889,6 @@
         "bvv": [
             "1", 
             "BVV"
-        ], 
-        "temporaerer_transparente_moderne_oeffentlichkeitsarbeit": [
-            "55", 
-            "Temporärer Ausschuss für transparente und moderne Öffentlichkeitsarbeit"
         ], 
         "umwelt_naturschutz_gruenplanung": [
             "44", 
