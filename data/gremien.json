@@ -500,6 +500,10 @@
             "53", 
             "Ausschuss für Integration"
         ], 
+        "jugendhilfe": [
+            "20", 
+            "Jugendhilfeausschuss"
+        ], 
         "aeltestenrat": [
             "7", 
             "Ältestenrat"
@@ -512,10 +516,6 @@
             "61", 
             "Ausschuss für Soziales"
         ], 
-        "stadtplanung": [
-            "64", 
-            "Ausschuss für Stadtplanung"
-        ], 
         "verwaltung_kommunikation_information": [
             "56", 
             "Ausschuss für Verwaltung, Kommunikation und Information"
@@ -524,9 +524,9 @@
             "59", 
             "Ausschuss für Verkehr und Grünflächen"
         ], 
-        "jugendhilfe": [
-            "20", 
-            "Jugendhilfeausschuss"
+        "stadtentwicklung": [
+            "65", 
+            "Ausschuss für Stadtentwicklung"
         ], 
         "gesundheit": [
             "62", 
@@ -546,69 +546,13 @@
         ]
     }, 
     "marzahn-hellersdorf": {
-        "bvv": [
-            "1", 
-            "BVV"
-        ], 
-        "umwelt_natur_lokale_agenda_21": [
-            "66", 
-            "Ausschuss für Umwelt, Natur und Lokale Agenda 21"
-        ], 
-        "siedlungsgebiete_verkehr": [
-            "55", 
-            "Ausschuss für Siedlungsgebiete und Verkehr"
-        ], 
-        "schule_sport": [
-            "68", 
-            "Ausschuss für Schule und Sport"
-        ], 
-        "wirtschaft_arbeit_jobcenter_beschaeftigungsfoerderung": [
-            "50", 
-            "Ausschuss für Wirtschaft, Arbeit, JobCenter und Beschäftigungsförderung"
-        ], 
-        "sport": [
-            "62", 
-            "Ausschuss für Sport"
-        ], 
-        "siedlungsgebiete_verkehr_landschaftsplanung": [
-            "67", 
-            "Ausschuss für Siedlungsgebiete, Verkehr und Landschaftsplanung"
-        ], 
-        "integration": [
-            "65", 
-            "Ausschuss für Integration"
-        ], 
-        "gleichstellung_menschen_mit_behinderungen": [
-            "51", 
-            "Ausschuss für Gleichstellung und Menschen mit Behinderungen"
-        ], 
         "jugendhilfe": [
             "11", 
             "Jugendhilfeausschuss"
         ], 
-        "umwelt_natur": [
-            "22", 
-            "Ausschuss für Umwelt und Natur"
-        ], 
-        "rechnungspruefung_eingaben_beschwerden": [
-            "72", 
-            "Ausschuss für Rechnungsprüfung, Eingaben und  Beschwerden"
-        ], 
-        "kultur_weiterbildung": [
-            "69", 
-            "Ausschuss für Kultur und Weiterbildung"
-        ], 
-        "hauptausschuss": [
-            "33", 
-            "Hauptausschuss"
-        ], 
-        "wirtschaft_jobcenter_oekologische_stadtentwicklung": [
-            "71", 
-            "Ausschuss für Wirtschaft, Jobcenter und Ökologische Stadtentwicklung"
-        ], 
-        "bildung_kultur": [
-            "61", 
-            "Ausschuss für Bildung und Kultur"
+        "bvv": [
+            "1", 
+            "BVV"
         ], 
         "gesundheit_soziales_seniorinnen_senioren": [
             "70", 
@@ -618,25 +562,49 @@
             "43", 
             "Ältestenrat"
         ], 
-        "oekologische_stadtentwicklung_soziale_stadt": [
-            "47", 
-            "Ausschuss für Ökologische Stadtentwicklung, Soziale Stadt"
-        ], 
-        "integration_migration": [
-            "18", 
-            "Ausschuss für Integration und Migration"
-        ], 
-        "gesundheit_soziales_seniorinnen": [
-            "49", 
-            "Ausschuss für Gesundheit, Soziales und Seniorinnen"
+        "siedlungsgebiete_verkehr_landschaftsplanung": [
+            "67", 
+            "Ausschuss für Siedlungsgebiete, Verkehr und Landschaftsplanung"
         ], 
         "geschaeftliche_mitteilungen_der_vorsteherin_der_bvv": [
             "27", 
             "Geschäftliche Mitteilungen der Vorsteherin der BVV"
         ], 
+        "rechnungspruefung_eingaben_beschwerden": [
+            "72", 
+            "Ausschuss für Rechnungsprüfung, Eingaben und  Beschwerden"
+        ], 
+        "integration": [
+            "65", 
+            "Ausschuss für Integration"
+        ], 
+        "kultur_weiterbildung": [
+            "69", 
+            "Ausschuss für Kultur und Weiterbildung"
+        ], 
+        "umwelt_natur_lokale_agenda_21": [
+            "66", 
+            "Ausschuss für Umwelt, Natur und Lokale Agenda 21"
+        ], 
+        "schule_sport": [
+            "68", 
+            "Ausschuss für Schule und Sport"
+        ], 
+        "hauptausschuss": [
+            "33", 
+            "Hauptausschuss"
+        ], 
+        "gleichstellung_menschen_mit_behinderungen": [
+            "51", 
+            "Ausschuss für Gleichstellung und Menschen mit Behinderungen"
+        ], 
         "vorstand": [
             "25", 
             "Vorstand"
+        ], 
+        "wirtschaft_jobcenter_oekologische_stadtentwicklung": [
+            "71", 
+            "Ausschuss für Wirtschaft, Jobcenter und Ökologische Stadtentwicklung"
         ]
     }, 
     "treptow-koepenick": {
@@ -713,6 +681,10 @@
         "zentrale_aufgaben_sozialraumorientierung_wohnen": [
             "46", 
             "Zentrale Aufgaben, Sozialraumorientierung und Wohnen"
+        ], 
+        "integration": [
+            "47", 
+            "Integrationsausschuss"
         ], 
         "bauen_verkehr": [
             "37", 
@@ -820,6 +792,10 @@
             "96", 
             "Ausschuss für Kultur und Bildung"
         ], 
+        "behindertenbeirat": [
+            "106", 
+            "Behindertenbeirat"
+        ], 
         "jugendhilfe": [
             "94", 
             "Jugendhilfeausschuss"
@@ -835,10 +811,6 @@
         "wirtschaft_ordnungsamt": [
             "104", 
             "Ausschuss für Wirtschaft und Ordnungsamt"
-        ], 
-        "geschaeftsordnung": [
-            "91", 
-            "Geschäftsordnungsausschuss"
         ], 
         "personal_haushalt_investitionen_rechnungspruefung": [
             "97", 
