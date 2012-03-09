@@ -14,6 +14,8 @@ pretty_replacements = [
 	["ö", "oe"],
 	["ü", "ue"],
 	["ß", "ss"],
+	["\"", ""],
+	["\\", ""],
 	["ausschuss fuer ", ""],
 	["ausschuss f. ", ""],
 	["ausschuss zur ", ""],
