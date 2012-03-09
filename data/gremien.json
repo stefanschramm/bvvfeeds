@@ -512,9 +512,9 @@
             "54", 
             "Hauptausschuss"
         ], 
-        "soziales": [
+        "soziales_senioren": [
             "61", 
-            "Ausschuss für Soziales"
+            "Ausschuss für Soziales und Senioren"
         ], 
         "verwaltung_kommunikation_information": [
             "56", 
@@ -581,6 +581,10 @@
         "kultur_weiterbildung": [
             "69", 
             "Ausschuss für Kultur und Weiterbildung"
+        ], 
+        "ag_bvv_live": [
+            "73", 
+            "AG \"BVV Live\""
         ], 
         "umwelt_natur_lokale_agenda_21": [
             "66", 
