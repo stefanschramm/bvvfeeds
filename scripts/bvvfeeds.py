@@ -129,6 +129,17 @@ extractors = {
 			#'content': [['./tr[2]/td[1]/div[2]/text()', '^(.*)$']]
 		}
 	},
+	'drucksachen': {
+		'url': 'http://www.berlin.de/ba-%s/bvv-online/vo040.asp',
+		'list_expression': '//div[@id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
+		'property_map': {
+			'id': [['.//td[1]/form/input[@name=\'VOLFDNR\']/@value', '^(.*)$']],
+			'name': [['.//td[2]/a/text()', '^(.*)$']],
+			'initiator': [['.//td[4]/text()', '^(.*)$']],
+			'date': [['.//td[6]/text()', '^.*([0-9]{2}.[0-9]{2}.[0-9]{4}).*$',  parse_date]],
+			'type': [['.//td[7]/text()', '^(.*)$']]
+		}
+	},
 	'sitzungen': {
 		# argumente: year_from, month_from, year_to, month_to
 		'url': 'http://www.berlin.de/ba-%s/bvv-online/si018.asp?GRA=%s&YYV=%s&MMV=%s&YYB=%s&MMB=%s',

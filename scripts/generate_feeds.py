@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import feed
+import feed_drucksachen
 import bvvfeeds
 import traceback
 
@@ -12,3 +13,11 @@ for bezirk,gremien in bvvfeeds.feeds.items():
 		except Exception as inst:
 			print "Error while creating " + outfile + ":"
 			print traceback.print_exc(inst)
+
+for bezirk in bvvfeeds.bezirke.keys():
+	outfile = bvvfeeds.document_root + '/' + bvvfeeds.feeds_dir + '/' + bezirk + '/drucksachen.xml'
+	try:
+		feed_drucksachen.create_feed(bezirk, outfile)
+	except Exception as inst:
+		print "Error while creating " + outfile + ":"
+		print traceback.print_exc(inst)
