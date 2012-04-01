@@ -344,9 +344,9 @@
             "47", 
             "Sozialausschuss"
         ], 
-        "gesundheit": [
-            "44", 
-            "Gesundheitsausschuss"
+        "integration": [
+            "45", 
+            "Integrationsausschuss"
         ], 
         "bildung_kultur_buergerdienste": [
             "35", 
@@ -360,13 +360,13 @@
             "8", 
             "Ältestenrat"
         ], 
+        "gesundheit_gleichstellung": [
+            "44", 
+            "Ausschuss für Gesundheit und Gleichstellung"
+        ], 
         "haushalt": [
             "36", 
             "Haushaltsausschuss"
-        ], 
-        "sport": [
-            "34", 
-            "Sportausschuss"
         ], 
         "wirtschaft_personal_europa": [
             "51", 
@@ -376,9 +376,9 @@
             "24", 
             "Vorstand der BVV Steglitz-Zehlendorf"
         ], 
-        "integration": [
-            "45", 
-            "Integrationsausschuss"
+        "sport": [
+            "34", 
+            "Sportausschuss"
         ], 
         "geschaeftsordnung": [
             "12", 
