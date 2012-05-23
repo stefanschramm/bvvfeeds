@@ -546,6 +546,10 @@
         ]
     }, 
     "marzahn-hellersdorf": {
+        "vertrauensgremium_ehrenrat": [
+            "74", 
+            "Vertrauensgremium/Ehrenrat"
+        ], 
         "jugendhilfe": [
             "11", 
             "Jugendhilfeausschuss"
@@ -616,9 +620,9 @@
             "69", 
             "Rechnungsprüfungsausschuss"
         ], 
-        "eingaben_beschwerden": [
-            "70", 
-            "Ausschuss für Eingaben und Beschwerden"
+        "vorstand": [
+            "67", 
+            "Vorstand"
         ], 
         "jugendhilfe": [
             "81", 
@@ -627,10 +631,6 @@
         "bvv": [
             "1", 
             "BVV"
-        ], 
-        "haushalt_personal_verwaltung": [
-            "68", 
-            "Ausschuss für Haushalt, Personal und Verwaltung"
         ], 
         "aeltestenrat": [
             "66", 
@@ -652,6 +652,10 @@
             "78", 
             "Ausschuss für Weiterbildung und Kultur"
         ], 
+        "haushalt_personal_verwaltung_geschaeftsordnung": [
+            "68", 
+            "Ausschuss für Haushalt, Personal, Verwaltung und Geschäftsordnung"
+        ], 
         "schule": [
             "73", 
             "Schulausschuss"
@@ -664,10 +668,6 @@
             "75", 
             "Ausschuss für Stadtentwicklung und Tiefbau"
         ], 
-        "vorstand": [
-            "67", 
-            "Vorstand"
-        ], 
         "wirtschaftsfoerderung_tourismus_immobilien": [
             "71", 
             "Ausschuss für Wirtschaftsförderung, Tourismus und Immobilien"
@@ -676,9 +676,9 @@
             "74", 
             "Sportausschuss"
         ], 
-        "geschaeftsordnung": [
-            "80", 
-            "Geschäftsordnungsausschuss"
+        "eingaben_beschwerden": [
+            "70", 
+            "Ausschuss für Eingaben und Beschwerden"
         ]
     }, 
     "spandau": {
