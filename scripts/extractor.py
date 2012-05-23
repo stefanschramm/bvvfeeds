@@ -3,12 +3,14 @@
 import lxml.html
 import urllib
 import re
+import time
 
 # TODO:
 # - run multiple extractors:
 #   - first collect all urls; fetch them; run corresponding extractor (for thoose using the same urls)
 
 def run_extractor(extractor, arguments = ()):
+	time.sleep(4)
 	doc = lxml.html.fromstring(urllib.urlopen(extractor['url'] % arguments).read())
 	entries = []
 	nodes = doc.xpath(extractor['list_expression'])
