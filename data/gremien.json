@@ -8,9 +8,9 @@
             "13", 
             "Kinder- und Jugendhilfeausschuss"
         ], 
-        "eingaben_beschwerden_umwelt_naturschutz": [
-            "49", 
-            "Ausschuss für Eingaben und Beschwerden + Umwelt- und Naturschutz"
+        "aeltestenrat": [
+            "7", 
+            "Ältestenrat"
         ], 
         "rechnungspruefung_controlling": [
             "54", 
@@ -36,13 +36,9 @@
             "20", 
             "AG Kinder- und Jugendhilfeplanung des Kinder- und Jugendhilfeausschusses"
         ], 
-        "aeltestenrat": [
-            "7", 
-            "Ältestenrat"
-        ], 
-        "spielplatzkommission": [
-            "22", 
-            "Spielplatzkommission"
+        "eingaben_beschwerden_umwelt_naturschutz": [
+            "49", 
+            "Ausschuss für Eingaben und Beschwerden + Umwelt- und Naturschutz"
         ], 
         "zeitweilige_geschaeftsordnung": [
             "23", 
@@ -788,10 +784,6 @@
             "89", 
             "Beirat für Menschen mit Behinderung"
         ], 
-        "integration": [
-            "92", 
-            "Integrationsausschuss"
-        ], 
         "kultur_bildung": [
             "96", 
             "Ausschuss für Kultur und Bildung"
@@ -819,6 +811,10 @@
         "personal_haushalt_investitionen_rechnungspruefung": [
             "97", 
             "Ausschuss für Personal, Haushalt und Investitionen, Rechnungsprüfung"
+        ], 
+        "integration_migration_teilhabe_chancengleichheit": [
+            "92", 
+            "Integrationsausschuss - Ausschuss für Migration, Teilhabe und Chancengleichheit"
         ], 
         "schule": [
             "93", 
