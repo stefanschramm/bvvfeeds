@@ -107,7 +107,7 @@ extractors = {
 	},
 	'tagesordnung': {
 		'url': 'http://www.berlin.de/ba-%s/bvv-online/to010.asp?SILFDNR=%s&options=4',
-		'list_expression': '//div[@id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
+		'list_expression': '//div[@id=\'allriscontainer\' or @id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
 		'property_map': {
 			'name': [
 				['.//td[4]/a/text()', '^(.*)$'],
@@ -131,7 +131,7 @@ extractors = {
 	},
 	'drucksachen': {
 		'url': 'http://www.berlin.de/ba-%s/bvv-online/vo040.asp',
-		'list_expression': '//div[@id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
+		'list_expression': '//div[@id=\'allriscontainer\' or @id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
 		'property_map': {
 			'id': [['.//td[1]/form/input[@name=\'VOLFDNR\']/@value', '^(.*)$']],
 			'name': [['.//td[2]/a/text()', '^(.*)$']],
@@ -143,7 +143,7 @@ extractors = {
 	'sitzungen': {
 		# argumente: year_from, month_from, year_to, month_to
 		'url': 'http://www.berlin.de/ba-%s/bvv-online/si018.asp?GRA=%s&YYV=%s&MMV=%s&YYB=%s&MMB=%s',
-		'list_expression': '//div[@id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
+		'list_expression': '//div[@id=\'allriscontainer\' or @id=\'allrisContent\']//tr[@class=\'zl11\' or @class=\'zl12\']',
 		'property_map': {
 			'date': [
 				[
