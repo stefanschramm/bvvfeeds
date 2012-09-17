@@ -17,3 +17,4 @@ def test_extractor(name, arguments):
 #test_extractor('drucksache', ('pankow', 2763))
 #test_extractor('drucksache', ('pankow', 3191))
 test_extractor('drucksachen', ('pankow'))
+#test_extractor('drucksachen', ('charlottenburg-wilmersdorf'))
