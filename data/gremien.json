@@ -40,10 +40,6 @@
             "49", 
             "Ausschuss für Eingaben und Beschwerden + Umwelt- und Naturschutz"
         ], 
-        "zeitweilige_geschaeftsordnung": [
-            "23", 
-            "Zeitweiliger Geschäftsordnungsausschuss"
-        ], 
         "ag_haushaltsplanerarbeitung_des_kjha": [
             "21", 
             "AG Haushaltsplanerarbeitung des Kinder- und Jugendhilfeausschusses"
@@ -67,6 +63,10 @@
         "vorstand": [
             "30", 
             "Vorstand der BVV Pankow von Berlin"
+        ], 
+        "geschaeftsordnung": [
+            "23", 
+            "Zeitweiliger Geschäftsordnungsausschuss"
         ], 
         "stadtentwicklung_gruenanlagen": [
             "45", 
@@ -246,9 +246,9 @@
             "20", 
             "Ältestenrat"
         ], 
-        "oekologische_stadtentwicklung": [
-            "42", 
-            "Ökologische Stadtentwicklung"
+        "aufklaerung_kulturhaus_karlshorst": [
+            "51", 
+            "Zeitweiliger Ausschuss Aufklärung Kulturhaus Karlshorst"
         ], 
         "jugendhilfe": [
             "10", 
@@ -285,6 +285,10 @@
         "wirtschaft_arbeit": [
             "31", 
             "Wirtschaft und Arbeit"
+        ], 
+        "oekologische_stadtentwicklung": [
+            "42", 
+            "Ökologische Stadtentwicklung"
         ], 
         "hauptausschuss": [
             "41", 

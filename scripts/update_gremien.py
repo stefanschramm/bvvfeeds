@@ -21,6 +21,8 @@ pretty_replacements = [
 	["ausschuss zur ", ""],
 	["sausschuss", ""],
 	["ausschuss", ""],
+	["zeitweiliger ", ""],
+	["zeitweiliger_", ""],
 	[" und ", "_"],
 	[" u. ", "_"],
 	[", ", "_"],
@@ -47,7 +49,8 @@ pretty_replacements_map = {
 	'vorstand_steglitzzehlendorf': 'vorstand',
 	'buergerdienste_ordnungs_allg._verwaltungsangelegnheiten': 'buergerdienste_ordnung_verwaltungsangelegnheiten',
 	'zeitweiliger_geschaeftsordnung': 'zeitweilige_geschaeftsordnung',
-	'temporaerer_transparente_moderne_oeffentlichkeitsarbeit': 'transparente_moderne_oeffentlichkeitsarbeit'
+	'temporaerer_transparente_moderne_oeffentlichkeitsarbeit': 'transparente_moderne_oeffentlichkeitsarbeit',
+	'_aufklaerung_kulturhaus_karlshorst': 'aufklaerung_kulturhaus_karlshorst'
 }
 
 
