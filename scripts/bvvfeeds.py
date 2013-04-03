@@ -7,7 +7,7 @@ import sys
 try:
 	import config
 except:
-	print "Please copy scripts/config.py.dist to scripty/config.py and adjust it."
+	print "Please copy scripts/config.py.dist to scripts/config.py and adjust it."
 	sys.exit(1)
 
 application_root = config.application_root
