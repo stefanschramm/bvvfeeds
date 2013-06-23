@@ -246,9 +246,9 @@
             "20", 
             "Ältestenrat"
         ], 
-        "aufklaerung_kulturhaus_karlshorst": [
-            "51", 
-            "Zeitweiliger Ausschuss Aufklärung Kulturhaus Karlshorst"
+        "oekologische_stadtentwicklung": [
+            "42", 
+            "Ökologische Stadtentwicklung"
         ], 
         "jugendhilfe": [
             "10", 
@@ -285,10 +285,6 @@
         "wirtschaft_arbeit": [
             "31", 
             "Wirtschaft und Arbeit"
-        ], 
-        "oekologische_stadtentwicklung": [
-            "42", 
-            "Ökologische Stadtentwicklung"
         ], 
         "hauptausschuss": [
             "41", 
@@ -398,9 +394,9 @@
             "41", 
             "Transparenz und Bürgerbeteiligung"
         ], 
-        "vorstand": [
-            "27", 
-            "Vorstand der BVV"
+        "sport": [
+            "13", 
+            "Sportausschuss"
         ], 
         "jugendhilfe": [
             "11", 
@@ -442,9 +438,13 @@
             "8", 
             "Hauptausschuss"
         ], 
-        "sport": [
-            "13", 
-            "Sportausschuss"
+        "vorstand": [
+            "27", 
+            "Vorstand der BVV"
+        ], 
+        "arbeitsgruppe_geschichte": [
+            "43", 
+            "Arbeitsgruppe Geschichte"
         ], 
         "bildung_kultur_umweltschutz": [
             "37", 
@@ -468,9 +468,9 @@
             "24", 
             "Ausschuss für Sport"
         ], 
-        "frauen_queer": [
-            "60", 
-            "Ausschuss für Frauen und Queer"
+        "jugendhilfe": [
+            "20", 
+            "Jugendhilfeausschuss"
         ], 
         "bvv": [
             "6", 
@@ -500,10 +500,6 @@
             "53", 
             "Ausschuss für Integration"
         ], 
-        "jugendhilfe": [
-            "20", 
-            "Jugendhilfeausschuss"
-        ], 
         "aeltestenrat": [
             "7", 
             "Ältestenrat"
@@ -515,6 +511,10 @@
         "soziales_senioren": [
             "61", 
             "Ausschuss für Soziales und Senioren"
+        ], 
+        "frauen_queer_inklusionspolitik": [
+            "60", 
+            "Ausschuss für Frauen-, Queer- und Inklusionspolitik"
         ], 
         "verwaltung_kommunikation_information": [
             "56", 
@@ -570,6 +570,10 @@
             "67", 
             "Ausschuss für Siedlungsgebiete, Verkehr und Landschaftsplanung"
         ], 
+        "geschaeftsordnung": [
+            "75", 
+            "Geschäftsordnungsausschuss"
+        ], 
         "geschaeftliche_mitteilungen_der_vorsteherin_der_bvv": [
             "27", 
             "Geschäftliche Mitteilungen der Vorsteherin der BVV"
@@ -613,6 +617,10 @@
         "wirtschaft_jobcenter_oekologische_stadtentwicklung": [
             "71", 
             "Ausschuss für Wirtschaft, Jobcenter und Ökologische Stadtentwicklung"
+        ], 
+        "ag_tag_des_ehrenamtes": [
+            "76", 
+            "AG \"Tag des Ehrenamtes\""
         ]
     }, 
     "treptow-koepenick": {
@@ -854,9 +862,9 @@
             "55", 
             "Temporärer Ausschuss für transparente und moderne Öffentlichkeitsarbeit"
         ], 
-        "sport": [
-            "50", 
-            "Sportausschuss"
+        "vorstand": [
+            "38", 
+            "Vorstand der BVV"
         ], 
         "jugendhilfe": [
             "46", 
@@ -882,6 +890,10 @@
             "45", 
             "Ausschuss für Integration"
         ], 
+        "buergerdienste_ordnungs_allg._verwaltungsangelegenheiten": [
+            "41", 
+            "Ausschuss für Bürgerdienste, Ordnungs- und allg. Verwaltungsangelegenheiten"
+        ], 
         "haushalt": [
             "54", 
             "Haushaltsausschuss"
@@ -894,17 +906,13 @@
             "49", 
             "Ausschuss für Sozialraumorientierung"
         ], 
-        "vorstand": [
-            "38", 
-            "Vorstand der BVV"
-        ], 
         "aeltestenrat": [
             "39", 
             "Ältestenrat"
         ], 
-        "kultur": [
-            "47", 
-            "Kulturausschuss"
+        "sport": [
+            "50", 
+            "Sportausschuss"
         ], 
         "geschaeftsordnung": [
             "53", 
@@ -914,9 +922,9 @@
             "43", 
             "Ausschuss für Gesundheit und Soziales"
         ], 
-        "buergerdienste_ordnung_verwaltungsangelegnheiten": [
-            "41", 
-            "Ausschuss für Bürgerdienste, Ordnungs- und allg. Verwaltungsangelegnheiten"
+        "kultur": [
+            "47", 
+            "Kulturausschuss"
         ]
     }
 }
