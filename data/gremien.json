@@ -1,5 +1,13 @@
 {
     "pankow": {
+        "erarbeitung_von_handlungsempfehlungen_(vi1102_vi1181_vi1319_vi1350)": [
+            "56", 
+            "Zeitweiliger Ausschuss zur Erarbeitung von Handlungsempfehlungen (VI-1102, VI-1181, VI-1319, VI-1350)"
+        ], 
+        "wirtschaft_gleichstellung_staedtepartnerschaften": [
+            "48", 
+            "Ausschuss für Wirtschaft, Gleichstellung und Städtepartnerschaften"
+        ], 
         "bvv": [
             "1", 
             "BVV"
@@ -48,13 +56,13 @@
             "46", 
             "Ausschuss für Verkehr und öffentliche Ordnung"
         ], 
-        "wirtschaft_gleichstellung_staedtepartnerschaften": [
-            "48", 
-            "Ausschuss für Wirtschaft, Gleichstellung und Städtepartnerschaften"
-        ], 
         "schule_sport": [
             "16", 
             "Ausschuss für Schule und Sport"
+        ], 
+        "ag_planung_soziales_des_es_fuer_arbeit_soziales_gesundheit_senioren": [
+            "57", 
+            "AG Planung Soziales des Ausschusses für Arbeit, Soziales, Gesundheit und Senioren"
         ], 
         "arbeit_soziales_gesundheit_senioren": [
             "47", 
@@ -77,10 +85,6 @@
         "rechnungspruefung": [
             "25", 
             "Ausschuss für Rechnungsprüfung"
-        ], 
-        "sport": [
-            "40", 
-            "Ausschuss für Sport"
         ], 
         "umwelt_naturschutz": [
             "51", 
@@ -134,9 +138,9 @@
             "54", 
             "Ausschuss für Tiefbau und Grünflächen"
         ], 
-        "kultur_weiterbildung": [
-            "31", 
-            "Ausschuss für Kultur und Weiterbildung"
+        "sport": [
+            "40", 
+            "Ausschuss für Sport"
         ], 
         "weiterbildung_kultur": [
             "58", 
@@ -460,57 +464,29 @@
         ]
     }, 
     "tempelhof-schoeneberg": {
-        "rechnungspruefung": [
-            "57", 
-            "Ausschuss für Rechnungsprüfung"
-        ], 
-        "sport": [
-            "24", 
-            "Ausschuss für Sport"
-        ], 
-        "jugendhilfe": [
-            "20", 
-            "Jugendhilfeausschuss"
-        ], 
         "bvv": [
             "6", 
             "BVV"
-        ], 
-        "vorstand": [
-            "38", 
-            "Vorstand BVV"
-        ], 
-        "schule": [
-            "22", 
-            "Ausschuss für Schule"
-        ], 
-        "wirtschaft": [
-            "58", 
-            "Ausschuss für Wirtschaft"
         ], 
         "eingaben_beschwerden": [
             "10", 
             "Ausschuss für Eingaben und Beschwerden"
         ], 
-        "buergerdienste_ordnungsamt": [
-            "41", 
-            "Ausschuss für Bürgerdienste und Ordnungsamt"
+        "sport": [
+            "24", 
+            "Ausschuss für Sport"
+        ], 
+        "facility_management": [
+            "63", 
+            "Ausschuss für Facility Management"
+        ], 
+        "wirtschaft": [
+            "58", 
+            "Ausschuss für Wirtschaft"
         ], 
         "integration": [
             "53", 
             "Ausschuss für Integration"
-        ], 
-        "aeltestenrat": [
-            "7", 
-            "Ältestenrat"
-        ], 
-        "hauptausschuss": [
-            "54", 
-            "Hauptausschuss"
-        ], 
-        "soziales_senioren": [
-            "61", 
-            "Ausschuss für Soziales und Senioren"
         ], 
         "frauen_queer_inklusionspolitik": [
             "60", 
@@ -528,13 +504,29 @@
             "65", 
             "Ausschuss für Stadtentwicklung"
         ], 
-        "gesundheit": [
-            "62", 
-            "Ausschuss für Gesundheit"
+        "rechnungspruefung": [
+            "57", 
+            "Ausschuss für Rechnungsprüfung"
         ], 
-        "facility_management": [
-            "63", 
-            "Ausschuss für Facility Management"
+        "jugendhilfe": [
+            "20", 
+            "Jugendhilfeausschuss"
+        ], 
+        "buergerdienste_ordnungsamt": [
+            "41", 
+            "Ausschuss für Bürgerdienste und Ordnungsamt"
+        ], 
+        "unterausschus_bibliotheken": [
+            "66", 
+            "Unterausschus \"Bibliotheken\""
+        ], 
+        "hauptausschuss": [
+            "54", 
+            "Hauptausschuss"
+        ], 
+        "soziales_senioren": [
+            "61", 
+            "Ausschuss für Soziales und Senioren"
         ], 
         "geschaeftsordnung": [
             "55", 
@@ -543,6 +535,22 @@
         "bildung_kultur": [
             "9", 
             "Ausschuss für Bildung und Kultur"
+        ], 
+        "schule": [
+            "22", 
+            "Ausschuss für Schule"
+        ], 
+        "gesundheit": [
+            "62", 
+            "Ausschuss für Gesundheit"
+        ], 
+        "aeltestenrat": [
+            "7", 
+            "Ältestenrat"
+        ], 
+        "vorstand": [
+            "38", 
+            "Vorstand BVV"
         ]
     }, 
     "marzahn-hellersdorf": {
@@ -905,6 +913,10 @@
         "sozialraumorientierung": [
             "49", 
             "Ausschuss für Sozialraumorientierung"
+        ], 
+        "temporaerer_personalbedarfskonzept": [
+            "56", 
+            "Temporärer Ausschuss \"Personalbedarfskonzept\""
         ], 
         "aeltestenrat": [
             "39", 
