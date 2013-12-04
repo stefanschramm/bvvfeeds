@@ -43,6 +43,7 @@
 				<li id="${bezirk}">
 					<strong><a class="bezirk" href="#${bezirk}">${b.bezirke[bezirk]}</a></strong>
 					<ul>
+						<li><a href="${b.feeds_dir}/${bezirk}/drucksachen.xml"><strong>Drucksachen</strong></a></li>
 						<li><a href="${b.feeds_dir}/${bezirk}/bvv.xml"><strong>${bezirkfeeds['bvv'][1]}</strong></a></li>
 					% for gremium,g in sorted(bezirkfeeds.items(), key=lambda g: g[1][1].lower().replace(u'ä', u'a').replace(u'ö', u'o').replace(u'ü', u'u')):
 						% if gremium != u'bvv':
@@ -55,9 +56,7 @@
 				</li>
 			% endfor
 			</ul>
-			<p>
-				Disclaimer: Es wird keine Gewähr für die Vollständigkeit oder Richtigkeit der in den Feeds enthaltenen Einträge übernommen. Der Betreiber von BVV Feeds empfiehlt Zwecks einer <a href="http://berlin.piratenpartei.de/2011/08/05/grundsatzprogramm-transparenz/">transparenteren Politik</a> der Berliner Verwaltung ihr Internetangebot dahingehend zu erweitern, dass direkt RSS-Feeds der Sitzungen der BVVen angeboten werden.
-			</p>
+			<p>Disclaimer: Es wird keine Gewähr für die Vollständigkeit oder Richtigkeit der in den Feeds enthaltenen Einträge übernommen.</p>
 		</div>
 		<div id="footer">Kontakt: mail@<a href="http://stefanschramm.net/kontakt">stefanschramm.net</a></div>
 	</div>
