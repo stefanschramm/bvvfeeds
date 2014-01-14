@@ -80,7 +80,7 @@ extractors = {
 		'property_map': {
 			'name': [['./td[2]/a/text()', '^(.*)$', lambda n: n.strip()]],
 			'id': [['./td[2]/a/@href', '^.*AULFDNR=([0-9]+)&.*$']],
-			'text5': [['./td[3]/text()', '^(.*)$']]
+			'text': [['./td[3]/text()', '^(.*)$']]
 		}
 	},
 	'ausschuss': {
